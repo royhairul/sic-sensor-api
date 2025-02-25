@@ -1,5 +1,16 @@
 # SIC-SENSOR-API
 
+## 📅 Informasi Event: Samsung Innovation Campus 6
+
+| **Nama Event**       | Samsung Innovation Campus 6 |
+|----------------------|----------------------------|
+| **Assignment**       | Assignment 2 - Stage 2     |
+| **Kode Tim**        | UNI033                     |
+| **Nama Tim**        | Samsung Batch              |
+| **Tujuan**          | Pengembangan sistem API untuk menghubungkan dan mengelola data sensor IoT dengan integrasi MQTT dan REST API |
+| **Teknologi Utama** | Python, FastAPI, MQTT, NoSQL (MongoDB) |
+
+
 SIC-SENSOR-API adalah sistem API untuk menghubungkan dan mengelola data dari sensor IoT, dengan integrasi ke **Ubidots** (platform IoT) dan **MongoDB** (database NoSQL). API ini memungkinkan komunikasi data sensor menggunakan **MQTT** dan **REST API**, serta menyediakan penyimpanan data lokal menggunakan MongoDB.
 
 <img src="https://raw.githubusercontent.com/royhairul/sic-sensor-api/main/docs/dashboard-ubidots.jpg" />
