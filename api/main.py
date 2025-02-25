@@ -3,7 +3,12 @@ from pymongo import MongoClient
 from pymongo.server_api import ServerApi
 from bson import ObjectId
 
+from dotenv import load_dotenv
+
 app = Flask(__name__)
+
+# Load variable from dotenv
+load_dotenv()
 
 # Koneksi ke MongoDB
 uri = "mongodb+srv://tstoyr:adminoyr@cluster0.u4bnb.mongodb.net/?retryWrites=true&w=majority&appName=cluster0"
