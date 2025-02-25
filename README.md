@@ -2,11 +2,15 @@
 
 SIC-SENSOR-API adalah sistem API untuk menghubungkan dan mengelola data dari sensor IoT, dengan integrasi ke **Ubidots** (platform IoT) dan **MongoDB** (database NoSQL). API ini memungkinkan komunikasi data sensor menggunakan **MQTT** dan **REST API**, serta menyediakan penyimpanan data lokal menggunakan MongoDB.
 
+<img src="https://raw.githubusercontent.com/royhairul/sic-sensor-api/main/docs/dashboard-ubidots.jpg" />
+
 ## 📌 Fitur Utama
 - **Koneksi MQTT ke Ubidots** untuk mengirim data sensor secara real-time.
 - **Integrasi REST API dengan MongoDB** untuk penyimpanan dan pengelolaan data sensor.
 - **Endpoint API** untuk mengakses dan mengelola data sensor.
 - **Dokumentasi proyek** untuk memudahkan penggunaan dan pengembangan lebih lanjut.
+
+<img src="https://raw.githubusercontent.com/royhairul/sic-sensor-api/main/docs/skema-integrasi.png" />
 
 ---
 
@@ -128,8 +132,8 @@ API akan berjalan pada `http://localhost:5000`, dan Anda dapat mengaksesnya mela
 ```
 
 ### 🔹 Pengiriman Data melalui MQTT
-- **Topik MQTT:** `samsung/`
-- **Topik LED MQTT:** `samsung/led/`
+- **Topik MQTT:** `samsung_batch/data`
+- **Topik LED MQTT:** `samsung_batch/data/led`
 - **Pesan LED:**
   - `"ON"` → Menyalakan LED
   - `"OFF"` → Mematikan LED
